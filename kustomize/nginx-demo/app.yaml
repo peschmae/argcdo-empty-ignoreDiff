@@ -13,4 +13,8 @@ spec:
     path: nginx-demo/resources
     repoURL: https://github.com/peschmae/argcdo-empty-ignoreDiff.git
     targetRevision: main
+  syncPolicy:
+    syncOptions:
+    - FailOnSharedResource=false
+    - PruneLast=true
   ignoreDifferences: []
