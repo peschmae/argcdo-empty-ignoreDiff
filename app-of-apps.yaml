@@ -10,6 +10,6 @@ spec:
     server: https://kubernetes.default.svc
   project: default
   source:
-    path: nginx-demo
+    path: kustomize
     repoURL: https://github.com/peschmae/argcdo-empty-ignoreDiff.git
     targetRevision: main
