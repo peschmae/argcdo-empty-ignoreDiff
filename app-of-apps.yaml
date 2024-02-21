@@ -13,3 +13,8 @@ spec:
     path: kustomize
     repoURL: https://github.com/peschmae/argcdo-empty-ignoreDiff.git
     targetRevision: main
+  syncPolicy:
+    automated:
+      selfHeal: true
+    syncOptions:
+    - Validate=true
