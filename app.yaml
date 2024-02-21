@@ -3,7 +3,7 @@ apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
   name: nginx-demo
-  namespace: agrocd
+  namespace: default
 spec:
   destination:
     namespace: nginx-demo
